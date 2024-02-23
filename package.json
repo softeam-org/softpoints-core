@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsx src/server.ts",
-    "start:dev": "tsx watch src/server.ts",
+    "start": "tsx src/shared/infra/http/server.ts",
+    "start:dev": "tsx watch src/shared/infra/http/server.ts",
     "build": "tsup src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
